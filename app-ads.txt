@@ -1,5 +1,3 @@
-google.com, pub-5712181272137522, DIRECT, f08c47fec0942fa0
-
 #Updated 31.03.2026
 
 #Appodeal
@@ -14,9 +12,7 @@ bidmachine.io,466,DIRECT
 
 #AdMob
 
-#Replace the Publisher_ID below with your Admob Publisher ID
-
-google.com, Publisher_ID, DIRECT, f08c47fec0942fa0
+google.com, pub-5712181272137522, DIRECT, f08c47fec0942fa0
 
 #Meta-Audience
 
