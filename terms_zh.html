@@ -3,58 +3,76 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>时光修复师 - 服务协议</title>
+  <title>服务条款</title>
   <style>
     :root {
-      color-scheme: light dark;
-      --background: #f8f5ef;
-      --surface: #fffaf2;
-      --text: #2b2118;
-      --muted: #706457;
-      --accent: #8f5f2f;
-      --border: #e4d8c8;
+      color-scheme: dark;
+      --background: #0E0C0A;
+      --surface: #17140F;
+      --surface-container: #241F17;
+      --text: #F6F3EF;
+      --muted: #B9B0A1;
+      --accent: #E2785D;
+      --accent-strong: #C9573D;
+      --border: #3A3024;
+      --hairline: rgba(244, 238, 227, 0.09);
     }
 
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --background: #17130f;
-        --surface: #211b15;
-        --text: #f4eadc;
-        --muted: #c3b6a6;
-        --accent: #d8aa72;
-        --border: #3a3026;
-      }
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: var(--background);
     }
 
     body {
       margin: 0;
-      background: var(--background);
+      background:
+        radial-gradient(circle at 50% -10%, rgba(201, 87, 61, 0.16), transparent 42rem),
+        var(--background);
       color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
+      font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
     }
 
     main {
       max-width: 760px;
       margin: 0 auto;
-      padding: 48px 20px 72px;
+      padding: clamp(24px, 6vw, 64px) 20px 72px;
     }
 
     article {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 32px;
-      box-shadow: 0 18px 50px rgba(43, 33, 24, 0.08);
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.025), transparent 18rem), var(--surface);
+      border: 1px solid var(--hairline);
+      border-radius: 24px;
+      padding: clamp(24px, 5vw, 40px);
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.28);
     }
 
-    h1, h2 {
-      line-height: 1.35;
+    article::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent-strong), var(--accent), transparent 85%);
+    }
+
+    h1, h2, h3 {
+      font-family: "Fraunces", Georgia, serif;
+      line-height: 1.25;
+      color: var(--text);
     }
 
     h1 {
       margin: 0 0 10px;
       font-size: clamp(2rem, 5vw, 3rem);
+      letter-spacing: -0.02em;
     }
 
     h2 {
@@ -63,8 +81,19 @@
       color: var(--accent);
     }
 
+    h3 {
+      margin: 20px 0 8px;
+      font-size: 1.05rem;
+    }
+
+    p {
+      margin: 0 0 16px;
+    }
+
     .updated {
       margin: 0 0 28px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--hairline);
       color: var(--muted);
       font-weight: 600;
     }
@@ -77,21 +106,48 @@
       margin: 8px 0;
     }
 
+    strong {
+      color: var(--text);
+    }
+
     a {
       color: var(--accent);
+      text-decoration-color: rgba(226, 120, 93, 0.5);
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      color: #F09A7F;
+    }
+
+    ::selection {
+      background: rgba(201, 87, 61, 0.4);
+      color: var(--text);
+    }
+
+    @media (max-width: 560px) {
+      main {
+        padding: 20px 14px 48px;
+      }
+
+      article {
+        border-radius: 20px;
+        padding: 24px 20px;
+      }
+
     }
   </style>
 </head>
 <body>
   <main>
     <article>
-      <h1>时光修复师 - 服务协议</h1>
-      <p class="updated">最后更新日期：2026年5月</p>
+      <h1>服务条款</h1>
+      <p class="updated">最后更新日期：2026年9月13日</p>
 
-      <p>在下载或使用时光修复师应用程序时，即表示您同意接受本服务协议的约束。</p>
+      <p>下载、安装或使用我们的任一应用程序或相关服务，即表示您同意接受本服务条款的约束。</p>
 
       <h2>1. 服务描述</h2>
-      <p>时光修复师提供基于 AI 的照片修复服务，包括上色和人脸高清修复。我们提供有限的免费额度以及付费的 Pro 订阅方案。</p>
+      <p>我们的应用程序和相关服务可能包含 AI 内容生成、图像处理、设计探索、订阅服务或具体应用中说明的其他功能。</p>
 
       <h2>2. 用户义务</h2>
       <ul>
@@ -108,18 +164,18 @@
 
       <h2>4. AI 服务免责声明</h2>
       <ul>
-        <li><strong>概率性结果：</strong>您理解 AI 修复是一个概率性过程。我们不保证修复后的图像一定是原图的完美还原。</li>
+        <li><strong>概率性结果：</strong>您理解 AI 设计是一个概率性过程。我们不保证生成的图案一定完全符合您的预期。</li>
         <li><strong>服务可用性：</strong>我们努力保证 100% 的可用性，但不对因 AI 供应商导致的临时服务中断承担责任。</li>
       </ul>
 
       <h2>5. 责任限制</h2>
-      <p>对于因使用本服务而产生的任何间接、附带或后果性损害，时光修复师不承担责任。</p>
+      <p>在适用法律允许的范围内，对于因使用我们的应用程序或服务而产生的任何间接、附带或后果性损害，我们不承担责任。</p>
 
       <h2>6. 适用法律</h2>
-      <p>本协议受中华人民共和国法律管辖。</p>
+      <p>本协议适用服务提供方指定司法辖区的相关法律；如当地强制性法律另有规定，则以当地强制性法律为准。</p>
 
       <h2>7. 联系我们</h2>
-      <p>关于本协议的任何疑问，请联系：<a href="mailto:616808462@qq.com">616808462@qq.com</a>。</p>
+      <p>关于本协议的任何疑问，请联系：<a href="mailto:guoxinrui1112@gmail.com">guoxinrui1112@gmail.com</a>。</p>
     </article>
   </main>
 </body>
