@@ -160,7 +160,7 @@
     <h3>账号与登录信息</h3>
     <p>我们使用 Firebase Authentication 默认创建匿名账号，并支持通过 Apple 或 Google 登录。我们会处理 Firebase 用户 ID、登录方式以及登录服务商提供的账号标识。我们不会收到你的 Apple 或 Google 密码。</p>
     <h3>文字灵感与生成结果</h3>
-    <p>当你请求生成设计时，你提交的文字灵感或修改指令会通过部署在 Firebase 的后端发送给 AI 服务商。生成图片及相关任务信息可能保存在 Firebase Cloud Storage 和 Firestore，以便展示、继续修改、保留历史记录及随账号删除。当前 AI 处理服务包括 Google Gemini、Replicate 和 ModelScope。</p>
+    <p>当你请求生成设计时，你提交的文字灵感或修改指令会通过部署在 Firebase 的后端发送给 AI 服务商。生成图片及相关任务信息可能保存在 Firebase Cloud Storage 和 Firestore，以便展示、继续修改、保留历史记录及随账号删除。当前 AI 处理服务包括 Google Gemini 和 Replicate。</p>
     <h3>身体预览照片</h3>
     <p>你在身体预览功能中选择的照片只在设备本地处理，不会上传到 InkFlow 服务器或 AI 服务商。只有当你明确点击保存时，预览图才会写入设备相册。相册权限由 iOS 或 Android 系统设置控制。</p>
     <h3>购买与订阅</h3>
@@ -180,7 +180,7 @@
     </ul>
 
     <h2>3. 共享与服务商</h2>
-    <p>我们仅在提供服务所需范围内共享数据。当前服务商包括 Google Firebase/Google Cloud（身份验证、后端、存储、分析和 Gemini）、Replicate 与 ModelScope（AI 处理）、RevenueCat（订阅管理）以及 Google AdMob（广告）。这些服务商依据其自身条款和隐私政策处理数据。我们也可能在法律要求、保护权利与安全、合并或出售业务时披露数据。我们不会出售个人信息。</p>
+    <p>我们仅在提供服务所需范围内共享数据。当前服务商包括 Google Firebase/Google Cloud（身份验证、后端、存储、分析和 Gemini）、Replicate（AI 处理）、RevenueCat（订阅管理）以及 Google AdMob（广告）。这些服务商依据其自身条款和隐私政策处理数据。我们也可能在法律要求、保护权利与安全、合并或出售业务时披露数据。我们不会出售个人信息。</p>
 
     <h2>4. 保存期限与删除账号</h2>
     <p>账号有效期间及提供服务合理需要的期限内，我们会保存账号记录和生成结果。你可以在应用内删除 InkFlow 账号：打开<strong>账户</strong>，点击<strong>删除账号</strong>并确认。此操作会删除 Firebase 账号及我们与其关联的 InkFlow 服务端记录，包括额度/权益记录、AI 任务记录、奖励记录和生成设计文件，并请求删除对应的 RevenueCat 客户记录。部分记录可能在加密备份中短暂保留，或依据法律、反欺诈和商店交易规则继续保留。仅删除 App 不会删除账号。如果你无法使用应用内删除功能，请使用账号关联邮箱联系我们，我们会在核验后处理。</p>
