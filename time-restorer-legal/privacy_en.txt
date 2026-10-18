@@ -13,7 +13,7 @@ Photos you submit for restoration
 This is the core of the service and it works differently from an on-device
 editor. When you import a photo from your library or capture one with the
 in-app scanner, the image is uploaded from your device to our backend and then
-transmitted to third-party AI processing providers so the restoration can run.
+transmitted to Replicate so the restoration can run.
 Depending on the mode you choose, this covers colorization of black-and-white
 photos, face restoration and enhancement, upscaling and denoising, and repair
 of scratches, folds, tears, and stains. Restored results are stored in our
@@ -74,12 +74,12 @@ not shared with advertising providers.
 
 We share data only as needed to run the service. Our current providers include
 Google Firebase and Google Cloud (authentication, backend, storage, and
-analytics), our AI processing providers (which may include Google Gemini,
-Replicate, and ModelScope), RevenueCat (subscription management), and Google
-AdMob (advertising). Providers that process photos do so only to return a
-result for your request, and they handle data under their own terms and privacy
-policies. We may also disclose data if required by law, to protect rights and
-safety, or as part of a merger or sale. We do not sell personal information.
+analytics), Replicate (AI photo restoration), RevenueCat (subscription
+management), and Google AdMob (advertising). Providers that process photos do
+so only to return a result for your request, and they handle data under their
+own terms and privacy policies. We may also disclose data if required by law,
+to protect rights and safety, or as part of a merger or sale. We do not sell
+personal information.
 
 
 4. RETENTION AND ACCOUNT DELETION

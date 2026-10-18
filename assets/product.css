@@ -317,3 +317,36 @@
     padding: 56px 0 44px;
   }
 }
+
+.compare-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  margin-top: 44px;
+}
+
+.compare-item {
+  margin: 0;
+}
+
+.compare-item .prod-compare {
+  max-width: none;
+  transform: none;
+  margin-bottom: 16px;
+}
+
+.compare-item figcaption {
+  font-size: 10px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--paper-faint);
+  line-height: 1.7;
+}
+
+@media (max-width: 850px) {
+  .compare-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}
