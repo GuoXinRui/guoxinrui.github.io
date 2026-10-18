@@ -1,5 +1,8 @@
 # Command Code local state (taste, sessions) — not part of the site
 .commandcode/
 
+# JetBrains IDE project files
+.idea/
+
 # macOS
 .DS_Store
