@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://booya.top/sitemap.xml

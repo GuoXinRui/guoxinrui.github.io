@@ -1,0 +1,130 @@
+Time Restorer Privacy Policy
+Effective: October 18, 2026
+
+Time Restorer is an AI photo restoration app for iOS and Android. This policy
+explains what we process, why we process it, who receives it, and how you can
+delete it. The data controller is Neo Guo ("we", "us"), contactable at
+guoxinrui1112@gmail.com.
+
+
+1. INFORMATION WE PROCESS
+
+Photos you submit for restoration
+This is the core of the service and it works differently from an on-device
+editor. When you import a photo from your library or capture one with the
+in-app scanner, the image is uploaded from your device to our backend and then
+transmitted to third-party AI processing providers so the restoration can run.
+Depending on the mode you choose, this covers colorization of black-and-white
+photos, face restoration and enhancement, upscaling and denoising, and repair
+of scratches, folds, tears, and stains. Restored results are stored in our
+cloud storage so they can be shown in your history and downloaded by you. If
+you do not want a photo uploaded, do not submit it for restoration. The in-app
+scanner uses on-device edge detection to crop the photo, but the cropped image
+is still uploaded when you run a restoration.
+
+Account and authentication data
+We use Firebase Authentication to create an anonymous account by default and
+to support Sign in with Apple or Google. We process your Firebase user ID, the
+authentication provider, and the account identifiers supplied by that provider.
+We do not receive your Apple or Google password.
+
+Restoration history
+We store the images you submit and the results we generate, together with task
+metadata such as mode, timestamps, and status, so that your history is
+available across sessions and can be deleted with your account.
+
+Purchases and subscriptions
+Apple or Google processes payment details. RevenueCat receives a customer
+identifier linked to your Firebase user ID, your entitlement and subscription
+status, and store transaction information so we can unlock Pro features. We do
+not receive or store your full payment-card number.
+
+Usage, device, and diagnostic data
+We process quota usage, app and device type, app version, language, coarse
+technical logs, and a randomly generated device identifier. The device
+identifier is converted to a one-way hash for quota and abuse-prevention
+records. We use Firebase Analytics to understand feature usage and app
+performance, and analytics events may be associated with your Firebase user ID.
+We do not send your photos or their contents to analytics.
+
+Advertising data
+Free users may see ads supplied by Google AdMob. Depending on your consent and
+device settings, AdMob may process advertising identifiers (such as IDFA on iOS
+or the Android advertising ID), IP address, approximate location, ad
+interactions, and consent status in order to deliver and measure ads. On iOS we
+request App Tracking Transparency permission before using the advertising
+identifier for personalized advertising. Photos you submit for restoration are
+not shared with advertising providers.
+
+
+2. WHY WE USE INFORMATION
+
+- Provide accounts, upload and process photos, return restored results, and
+  display your history.
+- Verify subscriptions, maintain accurate restoration allowances, prevent
+  abuse, and provide customer support.
+- Measure app performance and feature use, fix errors, and improve
+  Time Restorer.
+- Show contextual or personalized ads, measure their performance, and honor
+  your privacy choices.
+- Comply with law, enforce our Terms, and protect users and the service.
+
+
+3. SHARING AND SERVICE PROVIDERS
+
+We share data only as needed to run the service. Our current providers include
+Google Firebase and Google Cloud (authentication, backend, storage, and
+analytics), our AI processing providers (which may include Google Gemini,
+Replicate, and ModelScope), RevenueCat (subscription management), and Google
+AdMob (advertising). Providers that process photos do so only to return a
+result for your request, and they handle data under their own terms and privacy
+policies. We may also disclose data if required by law, to protect rights and
+safety, or as part of a merger or sale. We do not sell personal information.
+
+
+4. RETENTION AND ACCOUNT DELETION
+
+We keep account records, uploaded photos, and restored results while your
+account is active and as reasonably needed to provide the service. You can
+delete your Time Restorer account in the app: open Account, tap Delete Account,
+and confirm. This deletes the Firebase account and the server records we
+associate with it, including uploaded photos, restored results, quota and
+entitlement records, AI job records, and reward records, and it requests
+deletion of the related RevenueCat customer record. Some records may remain
+temporarily in encrypted backups, or be retained where law, fraud prevention,
+or store transaction rules require it. Deleting the app does not delete your
+account. If you cannot use the in-app option, email us from the address
+associated with your account and we will verify and process the request.
+
+
+5. YOUR CHOICES AND RIGHTS
+
+- Change photo, camera, and tracking permissions in your device settings.
+- Manage personalized advertising through iOS Tracking settings, Android Ads
+  settings, or the in-app privacy-options entry where available.
+- Request access, correction, export, restriction, or deletion by emailing
+  guoxinrui1112@gmail.com. We may need to verify your identity.
+- Cancel a subscription in Apple or Google, separately from deleting your
+  account.
+
+
+6. SECURITY AND INTERNATIONAL PROCESSING
+
+We use reasonable technical and organizational safeguards, including access
+controls, App Check, encrypted transport, and provider security controls. No
+system is perfectly secure. Our providers may process data in countries other
+than yours, with safeguards required by applicable law.
+
+
+7. CHILDREN
+
+Time Restorer is not directed to children under 13, or a higher minimum age
+where local law requires it. We do not knowingly collect personal information
+from children. Contact us if you believe a child has provided information.
+
+
+8. CHANGES AND CONTACT
+
+We may update this policy and will post the new effective date here. Material
+changes will be communicated in the app or by another appropriate method.
+Questions or privacy requests: guoxinrui1112@gmail.com

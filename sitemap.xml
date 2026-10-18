@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://booya.top/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://booya.top/inkflow.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://booya.top/time-restorer.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://booya.top/about.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://booya.top/privacy_en.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://booya.top/privacy_en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://booya.top/privacy_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://booya.top/privacy_en.html"/>
+  </url>
+  <url>
+    <loc>https://booya.top/privacy_zh.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://booya.top/privacy_en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://booya.top/privacy_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://booya.top/privacy_en.html"/>
+  </url>
+
+  <url>
+    <loc>https://booya.top/terms_en.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://booya.top/terms_en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://booya.top/terms_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://booya.top/terms_en.html"/>
+  </url>
+  <url>
+    <loc>https://booya.top/terms_zh.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://booya.top/terms_en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://booya.top/terms_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://booya.top/terms_en.html"/>
+  </url>
+
+  <url>
+    <loc>https://booya.top/support_en.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://booya.top/support_en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://booya.top/support_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://booya.top/support_en.html"/>
+  </url>
+  <url>
+    <loc>https://booya.top/support_zh.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://booya.top/support_en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://booya.top/support_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://booya.top/support_en.html"/>
+  </url>
+
+  <url>
+    <loc>https://booya.top/time-restorer-legal/privacy_en.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://booya.top/time-restorer-legal/privacy_en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://booya.top/time-restorer-legal/privacy_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://booya.top/time-restorer-legal/privacy_en.html"/>
+  </url>
+  <url>
+    <loc>https://booya.top/time-restorer-legal/privacy_zh.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://booya.top/time-restorer-legal/privacy_en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://booya.top/time-restorer-legal/privacy_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://booya.top/time-restorer-legal/privacy_en.html"/>
+  </url>
+
+  <url>
+    <loc>https://booya.top/time-restorer-legal/terms_en.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://booya.top/time-restorer-legal/terms_en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://booya.top/time-restorer-legal/terms_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://booya.top/time-restorer-legal/terms_en.html"/>
+  </url>
+  <url>
+    <loc>https://booya.top/time-restorer-legal/terms_zh.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://booya.top/time-restorer-legal/terms_en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://booya.top/time-restorer-legal/terms_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://booya.top/time-restorer-legal/terms_en.html"/>
+  </url>
+
+  <url>
+    <loc>https://booya.top/time-restorer-legal/support_en.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://booya.top/time-restorer-legal/support_en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://booya.top/time-restorer-legal/support_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://booya.top/time-restorer-legal/support_en.html"/>
+  </url>
+  <url>
+    <loc>https://booya.top/time-restorer-legal/support_zh.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://booya.top/time-restorer-legal/support_en.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://booya.top/time-restorer-legal/support_zh.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://booya.top/time-restorer-legal/support_en.html"/>
+  </url>
+
+</urlset>

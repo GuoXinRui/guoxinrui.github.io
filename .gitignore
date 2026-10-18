@@ -1,0 +1,5 @@
+# Command Code local state (taste, sessions) — not part of the site
+.commandcode/
+
+# macOS
+.DS_Store
