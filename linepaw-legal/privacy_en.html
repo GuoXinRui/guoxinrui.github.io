@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Linepaw Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #EAE4DE;
+      --surface: #FFFCF9;
+      --surface-container: #F3EDE3;
+      --text: #2A1D16;
+      --muted: #6B564C;
+      --accent: #C25A33;
+      --accent-strong: #7C2F17;
+      --border: #DED4C8;
+      --hairline: rgba(42, 29, 22, 0.10);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { background: var(--background); }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 50% -10%, rgba(240, 207, 178, 0.55), transparent 42rem),
+        var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Noto Sans", sans-serif;
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: clamp(24px, 6vw, 64px) 20px 72px;
+    }
+
+    article {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.45), transparent 18rem), var(--surface);
+      border: 1px solid var(--hairline);
+      border-radius: 24px;
+      padding: clamp(24px, 5vw, 40px);
+      box-shadow: 0 24px 70px rgba(90, 45, 28, 0.14);
+    }
+
+    article::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent-strong), var(--accent), transparent 85%);
+    }
+
+    h1, h2, h3 {
+      font-family: "Gelasio", "Songti SC", Georgia, serif;
+      line-height: 1.25;
+      color: var(--text);
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      letter-spacing: -0.02em;
+    }
+
+    h2 {
+      margin: 32px 0 12px;
+      font-size: 1.35rem;
+      color: var(--accent-strong);
+    }
+
+    h3 { margin: 20px 0 8px; font-size: 1.05rem; }
+
+    p { margin: 0 0 16px; }
+
+    .updated {
+      margin: 0 0 24px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--hairline);
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    ul { padding-left: 1.3rem; }
+    li { margin: 8px 0; }
+    strong { color: var(--text); }
+
+    a {
+      color: var(--accent);
+      text-decoration-color: rgba(194, 90, 51, 0.45);
+      text-underline-offset: 3px;
+    }
+
+    a:hover { color: var(--accent-strong); }
+
+    ::selection { background: rgba(194, 90, 51, 0.22); color: var(--text); }
+
+    @media (max-width: 560px) {
+      main { padding: 20px 14px 48px; }
+      article { border-radius: 20px; padding: 24px 20px; }
+    }
+
+    .nav { display: flex; flex-wrap: wrap; gap: 10px 18px; margin: 0 0 24px; }
+    .note { margin: 20px 0; padding: 16px 18px; background: var(--surface-container); border: 1px solid var(--hairline); border-radius: 14px; color: var(--muted); }
+    table { width: 100%; border-collapse: collapse; margin: 14px 0 20px; font-size: .96rem; }
+    th, td { padding: 11px 12px; border: 1px solid var(--border); text-align: left; vertical-align: top; }
+    th { color: var(--text); background: rgba(42, 29, 22, 0.04); }
+  </style>
+</head><body>
+  <main><article>
+    <h1>Linepaw Privacy Policy</h1>
+    <p class="updated">Effective: November 11, 2026</p>
+    <nav class="nav"><a href="privacy_en.html">Privacy</a><a href="terms_en.html">Terms</a><a href="support_en.html">Support</a></nav>
+    <p>Linepaw is an AI-assisted coloring-book app. You choose one pet photo and we generate a printable coloring book. This policy explains what we process, why we process it, who receives it, and how you can delete it. The data controller is Linepaw ("we", "us"). Contact: <a href="mailto:guoxinrui1112@gmail.com">guoxinrui1112@gmail.com</a>.</p>
+
+    <h2>1. Information We Process</h2>
+    <h3>Account and authentication data</h3>
+    <p>Linepaw uses Firebase Authentication to create an anonymous account. We process your Firebase user ID and authentication provider. We do not ask for your name, email address, or password. If you contact support, we receive the email address and message you send.</p>
+    <h3>Photos and generated pages</h3>
+    <p>When you choose a photo, it is compressed on your device, uploaded to Firebase Cloud Storage under your user ID, and sent to our AI providers to generate line art. We store the generated pages, task status, selected style, page count, scene list, and timestamps in Cloud Storage and Firestore so your book can be displayed, resumed, exported, and deleted. Current providers are Replicate (image generation) and Google Gemini (automated quality check). We do not use your photos or generated pages to train our own models. Our providers process data under their own terms and privacy policies.</p>
+    <h3>Purchases</h3>
+    <p>Apple or Google processes payment details. RevenueCat receives a customer identifier linked to your Firebase user ID and your entitlement and transaction status so we can unlock the one-time purchase and support restore. We do not receive or store your card number. Linepaw has no subscription and does not auto-renew.</p>
+    <h3>Usage, device, and diagnostic data</h3>
+    <p>We process quota usage, app and device type, operating system, app version, language, page counts, error logs, and a device identifier. The device identifier is stored as a one-way hash for quota and abuse prevention. We use Firebase Analytics to understand feature usage and app performance; analytics events may be associated with your Firebase user ID. We do not send photo content or full generation prompts to analytics.</p>
+    <h3>Advertising data</h3>
+    <p>Free users may choose to watch a rewarded ad supplied by Google AdMob. Depending on your consent and device settings, AdMob may process advertising identifiers (such as IDFA on iOS or the Android advertising ID), IP address, approximate location, ad interactions, and consent status to deliver and measure ads. On iOS we ask for App Tracking Transparency permission before using the advertising identifier for personalized advertising.</p>
+
+    <h2>2. Why We Use Information</h2>
+    <ul>
+      <li>Generate and display your book, save drafts, resume interrupted work, and export PDF or PNG files.</li>
+      <li>Enforce the daily free preview and the one-time purchase, restore purchases, and prevent abuse.</li>
+      <li>Show and measure ads, and honor your privacy choices.</li>
+      <li>Diagnose failures, provide support, and improve Linepaw.</li>
+      <li>Comply with law, enforce our Terms, and protect users and the service.</li>
+    </ul>
+
+    <h2>3. Sharing and Service Providers</h2>
+    <p>We share data only as needed to run the service. Our current providers include Google Firebase and Google Cloud (authentication, storage, database, analytics, and Gemini), Replicate (image generation), RevenueCat (purchase entitlements), and Google AdMob (advertising). These providers process data under their own terms and privacy policies. We may disclose data if required by law, to protect rights and safety, or as part of a merger or sale. We do not sell personal information.</p>
+
+    <h2>4. Retention and Deletion</h2>
+    <p>We keep your account records, uploaded photos, and generated pages while needed to provide the service. Job records and generated pages are scheduled to expire after 30 days. You can delete server-side photos and books in the app: open <strong>Account</strong>, tap <strong>Delete my photos and books</strong>, and confirm. To delete everything, tap <strong>Delete account</strong>; this removes your uploads and generated pages, deletes the Firebase account and related quota, entitlement, ad-reward, and job records, and requests deletion of the related RevenueCat customer record. Local drafts are removed when you clear app data or uninstall the app. Some records may remain temporarily in encrypted backups or be retained where law, fraud prevention, or store transaction rules require it. Deleting the app does not delete your account. If you cannot use the in-app option, email us and we will verify and process the request.</p>
+
+    <h2>5. Your Choices and Rights</h2>
+    <ul>
+      <li>Change photo, camera, and tracking permissions in your device settings.</li>
+      <li>Manage personalized advertising through iOS Tracking settings, Android Ads settings, or the in-app Privacy Options entry where available.</li>
+      <li>Request access, correction, export, restriction, or deletion by emailing <a href="mailto:guoxinrui1112@gmail.com">guoxinrui1112@gmail.com</a>. We may need to verify your identity.</li>
+      <li>Restore a purchase under <strong>Account &gt; Restore purchase</strong>. There is no subscription to cancel.</li>
+    </ul>
+
+    <h2>6. Security and International Processing</h2>
+    <p>We use reasonable technical and organizational safeguards, including access controls, Firebase App Check, encrypted transport, and provider security controls. No system is perfectly secure. Our providers may process data in countries other than yours, including the United States, with safeguards required by applicable law.</p>
+
+    <h2>7. Children</h2>
+    <p>Linepaw is not directed to children under 13 (or a higher minimum age where local law requires). We do not knowingly collect personal information from children. Contact us if you believe a child has provided information.</p>
+
+    <h2>8. Changes and Contact</h2>
+    <p>We may update this policy and will post the new effective date here. Material changes will be communicated in the app or by another appropriate method. Questions or privacy requests: <a href="mailto:guoxinrui1112@gmail.com">guoxinrui1112@gmail.com</a>.</p>
+  </article></main>
+</body>
+</html>
