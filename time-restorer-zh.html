@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#10100f" />
+  <title>时光修复师 — AI 老照片修复与黑白上色 App</title>
+  <meta name="description" content="时光修复师（Time Restorer）是一款 AI 老照片修复 App。扫描或导入纸质照片，黑白上色、修复划痕和折痕、还原模糊人脸，并对比修复前后效果。" />
+  <meta name="keywords" content="老照片修复,AI照片修复,黑白照片上色,模糊照片变清晰,划痕修复,人脸修复,家庭照片修复,时光修复师" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Neo Guo" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:url" content="https://booya.top/time-restorer-zh.html" />
+  <meta property="og:title" content="时光修复师 — AI 老照片修复" />
+  <meta property="og:description" content="把泛黄、破损、模糊的老照片，变成干净的高清图像：黑白上色、去划痕、修复人脸，一键完成。" />
+  <meta property="og:image" content="https://booya.top/assets/images/og-time-restorer.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="一张婚礼照片，左半部分是褪色的黑白原图，右半部分是时光修复师上色后的结果" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="时光修复师 — AI 老照片修复" />
+  <meta name="twitter:description" content="黑白上色、去划痕、修复模糊人脸，一键把老照片变清晰。" />
+  <meta name="twitter:image" content="https://booya.top/assets/images/og-time-restorer.jpg" />
+  <link rel="canonical" href="https://booya.top/time-restorer-zh.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://booya.top/time-restorer-zh.html" />
+  <link rel="alternate" hreflang="en" href="https://booya.top/time-restorer.html" />
+  <link rel="alternate" hreflang="x-default" href="https://booya.top/time-restorer.html" />
+  <link rel="icon" type="image/png" href="./assets/images/app_icon.png" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./assets/product.css" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "时光修复师",
+      "alternateName": "Time Restorer",
+      "applicationCategory": "PhotographyApplication",
+      "operatingSystem": "iOS, Android",
+      "url": "https://booya.top/time-restorer-zh.html",
+      "inLanguage": "zh-Hans",
+      "downloadUrl": [
+        "https://apps.apple.com/cn/app/id6766140726",
+        "https://play.google.com/store/apps/details?id=com.timerestorer.time_restorer"
+      ],
+      "sameAs": [
+        "https://apps.apple.com/cn/app/id6766140726",
+        "https://play.google.com/store/apps/details?id=com.timerestorer.time_restorer"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Neo Guo",
+        "url": "https://booya.top/about.html"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "CNY"
+      },
+      "screenshot": "https://booya.top/assets/images/og-time-restorer.jpg",
+      "description": "扫描或导入老照片，黑白上色、修复划痕和折痕、还原模糊人脸、提升清晰度，并对比修复前后效果。",
+      "featureList": [
+        "老照片扫描与导入",
+        "AI 黑白照片上色",
+        "高清人脸修复",
+        "划痕与破损修复",
+        "修复前后对比",
+        "历史记录与保存"
+      ]
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "照片会被上传吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "会。修复在云端运行，提交的照片会上传到我们的后端，并发送给 AI 处理服务商以生成结果。扫描器的边缘检测在设备上完成，但开始修复时裁剪后的图片会上传。提交修复的照片不会分享给广告商。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "修复失败了怎么办？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI 服务商可能繁忙或限流，过大或破损严重的文件可能超时。稍后重试；失败任务通常会退回次数。如果持续失败，请带上大概时间和设备型号联系我们。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "颜色或人脸看起来不对？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "上色和人脸修复是概率性的，不同照片效果不同。清晰、光线均匀、正面的扫描通常效果最好。可以换一种修复模式、重新扫描，或先裁剪到主体。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "怎么扫描纸质照片效果更好？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "把照片放在平整、光线均匀的表面上，避免反光，让照片占满画面大部分，并让扫描器自动识别边缘。避免阴影，也不要隔着玻璃拍摄。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "iPhone 和 Android 都能用吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。时光修复师已在 App Store（iPhone 和 iPad）和 Google Play 上架。"
+          }
+        }
+      ]
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首页",
+          "item": "https://booya.top/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "时光修复师",
+          "item": "https://booya.top/time-restorer-zh.html"
+        }
+      ]
+    }
+  </script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header shell">
+    <a class="wordmark" href="./index.html" aria-label="Neo Guo 首页">
+      <span class="wordmark-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>Neo Guo</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="./inkflow.html">InkFlow</a>
+      <a href="./time-restorer-zh.html">时光修复师</a>
+      <a href="./about.html">关于</a>
+      <a class="lang-switch" href="./time-restorer.html" hreflang="en" lang="en">EN</a>
+    </nav>
+    <a class="header-cta" href="./index.html#products">全部产品 <span aria-hidden="true">↗&#xFE0E;</span></a>
+  </header>
+
+  <main>
+    <section class="prod-hero shell">
+      <div class="prod-copy reveal">
+        <p class="eyebrow">AI 老照片修复</p>
+        <h1>让老照片<br /><span>重新清晰。</span></h1>
+        <p class="prod-lede">把泛黄的全家福、模糊的童年照片、带划痕的黑白照片，变成干净的高清图像——自然、真实。</p>
+        <div class="store-links">
+          <a class="store-link" href="https://apps.apple.com/cn/app/id6766140726" target="_blank" rel="noopener">App Store <span aria-hidden="true">↗&#xFE0E;</span></a>
+          <a class="store-link" href="https://play.google.com/store/apps/details?id=com.timerestorer.time_restorer" target="_blank" rel="noopener">Google Play <span aria-hidden="true">↗&#xFE0E;</span></a>
+        </div>
+        <div class="prod-badges">
+          <span class="prod-badge">扫描自动裁切</span>
+          <span class="prod-badge">黑白上色</span>
+          <span class="prod-badge">人脸修复</span>
+          <span class="prod-badge">iOS 与 Android</span>
+        </div>
+      </div>
+      <div class="prod-visual reveal reveal-delay">
+        <div class="prod-compare" role="img" aria-label="黑白婚礼照片修复前，以及同一张照片上色修复后的对比">
+          <picture>
+            <source type="image/webp" srcset="./assets/time-restorer/classic_wedding-480.webp 480w, ./assets/time-restorer/classic_wedding-800.webp 800w, ./assets/time-restorer/classic_wedding-1200.webp 1200w" sizes="(max-width: 850px) 90vw, 400px" />
+            <img class="before" src="./assets/time-restorer/classic_wedding.jpg" width="1200" height="1800" alt="黑白婚礼照片修复前" fetchpriority="high" decoding="async" />
+          </picture>
+          <picture>
+            <source type="image/webp" srcset="./assets/time-restorer/classic_wedding_colorized-480.webp 480w, ./assets/time-restorer/classic_wedding_colorized-800.webp 800w, ./assets/time-restorer/classic_wedding_colorized-1200.webp 1200w" sizes="(max-width: 850px) 90vw, 400px" />
+            <img class="after" src="./assets/time-restorer/classic_wedding_colorized.jpg" width="1200" height="1800" alt="AI 上色修复后的婚礼照片" fetchpriority="high" decoding="async" />
+          </picture>
+          <span class="split" aria-hidden="true"></span>
+          <span class="tag tag-left">修复前</span>
+          <span class="tag tag-right">修复后</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="prod-section shell">
+      <h2>它能做什么</h2>
+      <p class="section-lede">一键完成，不需要修图基础。扫描或上传，AI 处理，保存结果。</p>
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <h3>扫描或导入</h3>
+          <p>用相机把纸质照片数字化。扫描器会自动识别照片边缘，裁掉背景后再修复。</p>
+        </article>
+        <article class="feature-card reveal">
+          <h3>黑白照片上色</h3>
+          <p>深度学习分析画面，为老照片加上自然、真实的颜色——不是生硬的涂色，而是符合场景的色彩。</p>
+        </article>
+        <article class="feature-card reveal">
+          <h3>高清人脸修复</h3>
+          <p>针对人像优化，把模糊的五官重新对焦，恢复表情和细节。</p>
+        </article>
+        <article class="feature-card reveal">
+          <h3>划痕与破损修复</h3>
+          <p>识别并去除折痕、划痕、撕裂和污渍，让老照片重新完整。</p>
+        </article>
+        <article class="feature-card reveal">
+          <h3>提升分辨率、去除噪点</h3>
+          <p>把低分辨率照片提升到清晰的高清质感，清理胶片颗粒和运动模糊。</p>
+        </article>
+        <article class="feature-card reveal">
+          <h3>对比后保存</h3>
+          <p>原图与修复结果并排对比，满意后保存，并在记录里再次找到。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="prod-section shell">
+      <h2>修复前后</h2>
+      <p class="section-lede">下面两张照片都使用时光修复师修复。每张图左半部分是原图，右半部分是修复结果。</p>
+      <div class="compare-grid">
+        <figure class="compare-item reveal">
+          <div class="prod-compare" role="img" aria-label="黑白婚礼照片修复前，以及同一张照片上色修复后的对比">
+            <picture>
+              <source type="image/webp" srcset="./assets/time-restorer/classic_wedding-480.webp 480w, ./assets/time-restorer/classic_wedding-800.webp 800w, ./assets/time-restorer/classic_wedding-1200.webp 1200w" sizes="(max-width: 850px) 90vw, 45vw" />
+              <img class="before" src="./assets/time-restorer/classic_wedding.jpg" width="1200" height="1800" alt="黑白婚礼照片修复前" loading="lazy" decoding="async" />
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="./assets/time-restorer/classic_wedding_colorized-480.webp 480w, ./assets/time-restorer/classic_wedding_colorized-800.webp 800w, ./assets/time-restorer/classic_wedding_colorized-1200.webp 1200w" sizes="(max-width: 850px) 90vw, 45vw" />
+              <img class="after" src="./assets/time-restorer/classic_wedding_colorized.jpg" width="1200" height="1800" alt="AI 上色修复后的婚礼照片" loading="lazy" decoding="async" />
+            </picture>
+            <span class="split" aria-hidden="true"></span>
+            <span class="tag tag-left">修复前</span>
+            <span class="tag tag-right">修复后</span>
+          </div>
+          <figcaption>上色 — 一张黑白婚礼照片</figcaption>
+        </figure>
+        <figure class="compare-item reveal">
+          <div class="prod-compare" role="img" aria-label="褪色的老全家福修复前，以及同一张照片上色修复后的对比">
+            <picture>
+              <source type="image/webp" srcset="./assets/time-restorer/vintage_family-480.webp 480w, ./assets/time-restorer/vintage_family-800.webp 800w, ./assets/time-restorer/vintage_family-1200.webp 1200w" sizes="(max-width: 850px) 90vw, 45vw" />
+              <img class="before" src="./assets/time-restorer/vintage_family.jpg" width="1200" height="1800" alt="褪色的老全家福修复前" loading="lazy" decoding="async" />
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="./assets/time-restorer/vintage_family_colorized-480.webp 480w, ./assets/time-restorer/vintage_family_colorized-800.webp 800w, ./assets/time-restorer/vintage_family_colorized-1200.webp 1200w" sizes="(max-width: 850px) 90vw, 45vw" />
+              <img class="after" src="./assets/time-restorer/vintage_family_colorized.jpg" width="1200" height="1800" alt="AI 上色修复后的老全家福" loading="lazy" decoding="async" />
+            </picture>
+            <span class="split" aria-hidden="true"></span>
+            <span class="tag tag-left">修复前</span>
+            <span class="tag tag-right">修复后</span>
+          </div>
+          <figcaption>上色 — 一张老全家福</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="prod-section shell">
+      <h2>怎么用</h2>
+      <p class="section-lede">过去要请专业人士花几天完成的修复，现在几秒钟就能看到结果。</p>
+      <div class="steps">
+        <div class="step reveal"><span class="step-index">01</span><div class="step-icon">✦</div><h3>扫描或上传</h3><p>用相机对准纸质照片，或直接导入手机里已有的照片。</p></div>
+        <div class="step reveal reveal-delay"><span class="step-index">02</span><div class="step-icon">↗&#xFE0E;</div><h3>选择模式</h3><p>根据照片情况选择深度修复、经典修复或仅上色。</p></div>
+        <div class="step reveal reveal-delay-2"><span class="step-index">03</span><div class="step-icon">∞</div><h3>对比并保存</h3><p>对照原图检查结果，满意后保存，把记忆分享给家人。</p></div>
+      </div>
+    </section>
+
+    <section class="prod-section prod-faq shell">
+      <h2>常见问题</h2>
+      <div class="faq-list">
+        <details class="reveal">
+          <summary>照片会被上传吗？ <span>＋</span></summary>
+          <p>会。修复在云端运行，提交的照片会上传到我们的后端，并发送给 AI 处理服务商以生成结果。扫描器的边缘检测在设备上完成，但开始修复时裁剪后的图片会上传。提交修复的照片不会分享给广告商。</p>
+        </details>
+        <details class="reveal">
+          <summary>修复失败了怎么办？ <span>＋</span></summary>
+          <p>AI 服务商可能繁忙或限流，过大或破损严重的文件可能超时。稍后重试；失败任务通常会退回次数。如果持续失败，请带上大概时间和设备型号联系我们。</p>
+        </details>
+        <details class="reveal">
+          <summary>颜色或人脸看起来不对？ <span>＋</span></summary>
+          <p>上色和人脸修复是概率性的，不同照片效果不同。清晰、光线均匀、正面的扫描通常效果最好。可以换一种修复模式、重新扫描，或先裁剪到主体。</p>
+        </details>
+        <details class="reveal">
+          <summary>怎么扫描纸质照片效果更好？ <span>＋</span></summary>
+          <p>把照片放在平整、光线均匀的表面上，避免反光，让照片占满画面大部分，并让扫描器自动识别边缘。避免阴影，也不要隔着玻璃拍摄。</p>
+        </details>
+        <details class="reveal">
+          <summary>iPhone 和 Android 都能用吗？ <span>＋</span></summary>
+          <p>可以。时光修复师已在 App Store（iPhone 和 iPad）和 Google Play 上架。</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="prod-section shell">
+      <div class="prod-cta reveal">
+        <h2>把记忆，<br /><em>还给清晰。</em></h2>
+        <div class="store-links">
+          <a class="store-link" href="https://apps.apple.com/cn/app/id6766140726" target="_blank" rel="noopener">App Store <span aria-hidden="true">↗&#xFE0E;</span></a>
+          <a class="store-link" href="https://play.google.com/store/apps/details?id=com.timerestorer.time_restorer" target="_blank" rel="noopener">Google Play <span aria-hidden="true">↗&#xFE0E;</span></a>
+        </div>
+      </div>
+      <div class="cross-link">
+        <p><strong>InkFlow</strong>把脑海里的纹身想法，变成可以拿给别人看的方向。</p>
+        <a class="text-link" href="./inkflow.html">了解 InkFlow <span aria-hidden="true">↗&#xFE0E;</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <a class="wordmark" href="./index.html"><span class="wordmark-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Neo Guo</span></a>
+    <p>为值得留下的想法和记忆做工具。</p>
+    <div class="footer-links"><a href="./index.html">工作室</a><a href="./inkflow.html">InkFlow</a><a href="./about.html">关于</a><a href="./time-restorer-legal/privacy_zh.html">隐私</a><a href="./time-restorer-legal/terms_zh.html">条款</a><a href="./time-restorer-legal/support_zh.html">支持</a><a href="./time-restorer.html" hreflang="en" lang="en">English</a></div>
+    <span class="footer-note">© 2026 Neo Guo</span>
+  </footer>
+  <script src="./script.js"></script>
+  <script src="./assets/analytics.js"></script>
+</body>
+</html>

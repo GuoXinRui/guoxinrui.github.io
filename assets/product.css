@@ -350,3 +350,14 @@
     gap: 30px;
   }
 }
+
+.lang-switch {
+  font-size: 11px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--paper-dim);
+}
+
+.lang-switch:hover {
+  color: var(--paper);
+}

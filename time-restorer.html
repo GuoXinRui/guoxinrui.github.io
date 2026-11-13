@@ -10,6 +10,8 @@
   <meta name="robots" content="index, follow" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Neo Guo" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="zh_CN" />
   <meta property="og:url" content="https://booya.top/time-restorer.html" />
   <meta property="og:title" content="Time Restorer — AI Old Photo Restoration" />
   <meta property="og:description" content="Bring old photos back to life: colorize, repair, and restore faces, then compare before and after." />
@@ -22,6 +24,9 @@
   <meta name="twitter:description" content="Colorize, repair, and restore old family photos in one tap." />
   <meta name="twitter:image" content="https://booya.top/assets/images/og-time-restorer.jpg" />
   <link rel="canonical" href="https://booya.top/time-restorer.html" />
+  <link rel="alternate" hreflang="en" href="https://booya.top/time-restorer.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://booya.top/time-restorer-zh.html" />
+  <link rel="alternate" hreflang="x-default" href="https://booya.top/time-restorer.html" />
   <link rel="icon" type="image/png" href="./assets/images/app_icon.png" />
   <link rel="stylesheet" href="./styles.css" />
   <link rel="stylesheet" href="./assets/product.css" />
@@ -33,10 +38,26 @@
       "applicationCategory": "PhotographyApplication",
       "operatingSystem": "iOS, Android",
       "url": "https://booya.top/time-restorer.html",
+      "inLanguage": "en",
       "downloadUrl": [
         "https://apps.apple.com/app/id6766140726",
         "https://play.google.com/store/apps/details?id=com.timerestorer.time_restorer"
       ],
+      "sameAs": [
+        "https://apps.apple.com/app/id6766140726",
+        "https://play.google.com/store/apps/details?id=com.timerestorer.time_restorer"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Neo Guo",
+        "url": "https://booya.top/about.html"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "screenshot": "https://booya.top/assets/images/og-time-restorer.jpg",
       "description": "Scan or import old photos, add natural color, restore faces and faded details, compare before and after, and save the result.",
       "featureList": [
         "Old photo scanning and import",
@@ -96,6 +117,26 @@
       ]
     }
   </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://booya.top/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Time Restorer",
+          "item": "https://booya.top/time-restorer.html"
+        }
+      ]
+    }
+  </script>
 </head>
 <body>
   <div class="grain" aria-hidden="true"></div>
@@ -108,6 +149,7 @@
       <a href="./inkflow.html">InkFlow</a>
       <a href="./time-restorer.html">Time Restorer</a>
       <a href="./about.html">About</a>
+      <a class="lang-switch" href="./time-restorer-zh.html" hreflang="zh-Hans" lang="zh-Hans">中文</a>
     </nav>
     <a class="header-cta" href="./index.html#products">All products <span aria-hidden="true">↗&#xFE0E;</span></a>
   </header>
@@ -131,8 +173,14 @@
       </div>
       <div class="prod-visual reveal reveal-delay">
         <div class="prod-compare" role="img" aria-label="Black-and-white wedding photo before restoration, and the same photo colorized after restoration">
-          <img class="before" src="./assets/time-restorer/classic_wedding.jpg" alt="Black-and-white wedding photo before restoration" />
-          <img class="after" src="./assets/time-restorer/classic_wedding_colorized.jpg" alt="Colorized wedding photo after AI restoration" />
+          <picture>
+            <source type="image/webp" srcset="./assets/time-restorer/classic_wedding-480.webp 480w, ./assets/time-restorer/classic_wedding-800.webp 800w, ./assets/time-restorer/classic_wedding-1200.webp 1200w" sizes="(max-width: 850px) 90vw, 400px" />
+            <img class="before" src="./assets/time-restorer/classic_wedding.jpg" width="1200" height="1800" alt="Black-and-white wedding photo before restoration" fetchpriority="high" decoding="async" />
+          </picture>
+          <picture>
+            <source type="image/webp" srcset="./assets/time-restorer/classic_wedding_colorized-480.webp 480w, ./assets/time-restorer/classic_wedding_colorized-800.webp 800w, ./assets/time-restorer/classic_wedding_colorized-1200.webp 1200w" sizes="(max-width: 850px) 90vw, 400px" />
+            <img class="after" src="./assets/time-restorer/classic_wedding_colorized.jpg" width="1200" height="1800" alt="Colorized wedding photo after AI restoration" fetchpriority="high" decoding="async" />
+          </picture>
           <span class="split" aria-hidden="true"></span>
           <span class="tag tag-left">BEFORE</span>
           <span class="tag tag-right">AFTER</span>
@@ -177,8 +225,14 @@
       <div class="compare-grid">
         <figure class="compare-item reveal">
           <div class="prod-compare" role="img" aria-label="A black-and-white wedding photograph before restoration, and the same photograph colorized after restoration">
-            <img class="before" src="./assets/time-restorer/classic_wedding.jpg" alt="Black-and-white wedding photo before restoration" />
-            <img class="after" src="./assets/time-restorer/classic_wedding_colorized.jpg" alt="Colorized wedding photo after AI restoration" />
+            <picture>
+              <source type="image/webp" srcset="./assets/time-restorer/classic_wedding-480.webp 480w, ./assets/time-restorer/classic_wedding-800.webp 800w, ./assets/time-restorer/classic_wedding-1200.webp 1200w" sizes="(max-width: 850px) 90vw, 45vw" />
+              <img class="before" src="./assets/time-restorer/classic_wedding.jpg" width="1200" height="1800" alt="Black-and-white wedding photo before restoration" loading="lazy" decoding="async" />
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="./assets/time-restorer/classic_wedding_colorized-480.webp 480w, ./assets/time-restorer/classic_wedding_colorized-800.webp 800w, ./assets/time-restorer/classic_wedding_colorized-1200.webp 1200w" sizes="(max-width: 850px) 90vw, 45vw" />
+              <img class="after" src="./assets/time-restorer/classic_wedding_colorized.jpg" width="1200" height="1800" alt="Colorized wedding photo after AI restoration" loading="lazy" decoding="async" />
+            </picture>
             <span class="split" aria-hidden="true"></span>
             <span class="tag tag-left">BEFORE</span>
             <span class="tag tag-right">AFTER</span>
@@ -187,8 +241,14 @@
         </figure>
         <figure class="compare-item reveal">
           <div class="prod-compare" role="img" aria-label="A faded vintage family portrait before restoration, and the same portrait colorized after restoration">
-            <img class="before" src="./assets/time-restorer/vintage_family.jpg" alt="Faded vintage family portrait before restoration" />
-            <img class="after" src="./assets/time-restorer/vintage_family_colorized.jpg" alt="Colorized vintage family portrait after AI restoration" />
+            <picture>
+              <source type="image/webp" srcset="./assets/time-restorer/vintage_family-480.webp 480w, ./assets/time-restorer/vintage_family-800.webp 800w, ./assets/time-restorer/vintage_family-1200.webp 1200w" sizes="(max-width: 850px) 90vw, 45vw" />
+              <img class="before" src="./assets/time-restorer/vintage_family.jpg" width="1200" height="1800" alt="Faded vintage family portrait before restoration" loading="lazy" decoding="async" />
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="./assets/time-restorer/vintage_family_colorized-480.webp 480w, ./assets/time-restorer/vintage_family_colorized-800.webp 800w, ./assets/time-restorer/vintage_family_colorized-1200.webp 1200w" sizes="(max-width: 850px) 90vw, 45vw" />
+              <img class="after" src="./assets/time-restorer/vintage_family_colorized.jpg" width="1200" height="1800" alt="Colorized vintage family portrait after AI restoration" loading="lazy" decoding="async" />
+            </picture>
             <span class="split" aria-hidden="true"></span>
             <span class="tag tag-left">BEFORE</span>
             <span class="tag tag-right">AFTER</span>
@@ -252,7 +312,7 @@
   <footer class="site-footer shell">
     <a class="wordmark" href="./index.html"><span class="wordmark-mark" aria-hidden="true"><i></i><i></i><i></i></span><span>Neo Guo</span></a>
     <p>Tools for the ideas and memories worth keeping.</p>
-    <div class="footer-links"><a href="./index.html">Studio</a><a href="./inkflow.html">InkFlow</a><a href="./about.html">About</a><a href="./time-restorer-legal/privacy_en.html">Privacy</a><a href="./time-restorer-legal/terms_en.html">Terms</a><a href="./time-restorer-legal/support_en.html">Support</a></div>
+    <div class="footer-links"><a href="./index.html">Studio</a><a href="./inkflow.html">InkFlow</a><a href="./about.html">About</a><a href="./time-restorer-legal/privacy_en.html">Privacy</a><a href="./time-restorer-legal/terms_en.html">Terms</a><a href="./time-restorer-legal/support_en.html">Support</a><a href="./time-restorer-zh.html" hreflang="zh-Hans" lang="zh-Hans">中文</a></div>
     <span class="footer-note">© 2026 Neo Guo</span>
   </footer>
   <script src="./script.js"></script>
