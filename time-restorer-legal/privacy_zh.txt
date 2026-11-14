@@ -3,7 +3,7 @@ Time Restorer 隐私政策
 
 Time Restorer 是一款面向 iOS 与 Android 的 AI 老照片修复应用。本政策说明我们
 处理哪些信息、处理目的、可能向谁提供，以及你如何删除这些信息。数据控制者为
-Neo Guo，联系方式：guoxinrui1112@gmail.com。
+Neo Guo，联系方式：support@booya.top。
 
 
 1. 我们处理的信息
@@ -80,7 +80,7 @@ Google AdMob（广告）。处理照片的服务商仅会为返回你所请求�
 - 在设备设置中更改照片、相机与跟踪权限。
 - 通过 iOS 跟踪设置、Android 广告设置，或应用内的隐私选项入口（如适用）管理
   个性化广告。
-- 发送邮件至 guoxinrui1112@gmail.com 请求访问、更正、导出、限制处理或删除数据。
+- 发送邮件至 support@booya.top 请求访问、更正、导出、限制处理或删除数据。
   我们可能需要验证你的身份。
 - 在 Apple 或 Google 处取消订阅，该操作与删除账号相互独立。
 
@@ -101,4 +101,4 @@ Time Restorer 不面向 13 岁以下儿童（或当地法律规定的更高年�
 8. 变更与联系方式
 
 我们可能更新本政策，并在此页面公布新的生效日期。重大变更会通过应用或其他适当
-方式通知。问题或隐私请求请联系：guoxinrui1112@gmail.com
+方式通知。问题或隐私请求请联系：support@booya.top

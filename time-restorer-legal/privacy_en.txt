@@ -4,7 +4,7 @@ Effective: October 18, 2026
 Time Restorer is an AI photo restoration app for iOS and Android. This policy
 explains what we process, why we process it, who receives it, and how you can
 delete it. The data controller is Neo Guo ("we", "us"), contactable at
-guoxinrui1112@gmail.com.
+support@booya.top.
 
 
 1. INFORMATION WE PROCESS
@@ -103,7 +103,7 @@ associated with your account and we will verify and process the request.
 - Manage personalized advertising through iOS Tracking settings, Android Ads
   settings, or the in-app privacy-options entry where available.
 - Request access, correction, export, restriction, or deletion by emailing
-  guoxinrui1112@gmail.com. We may need to verify your identity.
+  support@booya.top. We may need to verify your identity.
 - Cancel a subscription in Apple or Google, separately from deleting your
   account.
 
@@ -127,4 +127,4 @@ from children. Contact us if you believe a child has provided information.
 
 We may update this policy and will post the new effective date here. Material
 changes will be communicated in the app or by another appropriate method.
-Questions or privacy requests: guoxinrui1112@gmail.com
+Questions or privacy requests: support@booya.top
