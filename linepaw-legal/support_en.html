@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Linepaw Support</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #EAE4DE;
+      --surface: #FFFCF9;
+      --surface-container: #F3EDE3;
+      --text: #2A1D16;
+      --muted: #6B564C;
+      --accent: #C25A33;
+      --accent-strong: #7C2F17;
+      --border: #DED4C8;
+      --hairline: rgba(42, 29, 22, 0.10);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { background: var(--background); }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 50% -10%, rgba(240, 207, 178, 0.55), transparent 42rem),
+        var(--background);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Noto Sans", sans-serif;
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: clamp(24px, 6vw, 64px) 20px 72px;
+    }
+
+    article {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.45), transparent 18rem), var(--surface);
+      border: 1px solid var(--hairline);
+      border-radius: 24px;
+      padding: clamp(24px, 5vw, 40px);
+      box-shadow: 0 24px 70px rgba(90, 45, 28, 0.14);
+    }
+
+    article::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent-strong), var(--accent), transparent 85%);
+    }
+
+    h1, h2, h3 {
+      font-family: "Gelasio", "Songti SC", Georgia, serif;
+      line-height: 1.25;
+      color: var(--text);
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      letter-spacing: -0.02em;
+    }
+
+    h2 {
+      margin: 32px 0 12px;
+      font-size: 1.35rem;
+      color: var(--accent-strong);
+    }
+
+    h3 { margin: 20px 0 8px; font-size: 1.05rem; }
+
+    p { margin: 0 0 16px; }
+
+    .updated {
+      margin: 0 0 24px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--hairline);
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    ul { padding-left: 1.3rem; }
+    li { margin: 8px 0; }
+    strong { color: var(--text); }
+
+    a {
+      color: var(--accent);
+      text-decoration-color: rgba(194, 90, 51, 0.45);
+      text-underline-offset: 3px;
+    }
+
+    a:hover { color: var(--accent-strong); }
+
+    ::selection { background: rgba(194, 90, 51, 0.22); color: var(--text); }
+
+    @media (max-width: 560px) {
+      main { padding: 20px 14px 48px; }
+      article { border-radius: 20px; padding: 24px 20px; }
+    }
+
+    .nav { display: flex; flex-wrap: wrap; gap: 10px 18px; margin: 0 0 24px; }
+    .note { margin: 20px 0; padding: 16px 18px; background: var(--surface-container); border: 1px solid var(--hairline); border-radius: 14px; color: var(--muted); }
+    table { width: 100%; border-collapse: collapse; margin: 14px 0 20px; font-size: .96rem; }
+    th, td { padding: 11px 12px; border: 1px solid var(--border); text-align: left; vertical-align: top; }
+    th { color: var(--text); background: rgba(42, 29, 22, 0.04); }
+  </style>
+</head><body>
+  <main><article>
+    <h1>Linepaw Support</h1>
+    <p class="updated">Last updated: November 11, 2026</p>
+    <nav class="nav"><a href="privacy_en.html">Privacy</a><a href="terms_en.html">Terms</a><a href="support_en.html">Support</a></nav>
+    <p>Need help with Linepaw? Email <a href="mailto:guoxinrui1112@gmail.com">guoxinrui1112@gmail.com</a>. Include your device model, app version, a description of the issue, and a screenshot if useful. Do not send payment-card details.</p>
+
+    <h2>Delete Your Data or Account</h2>
+    <ul>
+      <li><strong>Delete photos and books:</strong> open <strong>Account</strong>, tap <strong>Delete my photos and books</strong>, and confirm. This removes server-side uploads and generated pages but keeps your account and purchase.</li>
+      <li><strong>Delete account:</strong> open <strong>Account</strong>, tap <strong>Delete account</strong>, and confirm. This deletes server-side photos and books first, then the Firebase account, quota and entitlement records, ad-reward records, and AI job records, and requests deletion of the related RevenueCat customer record.</li>
+      <li>Generated pages and job records are also scheduled to expire after 30 days.</li>
+    </ul>
+    <p>Uninstalling the app removes local drafts but does not delete your server account. If you cannot use the in-app option, email us from the address associated with your account or include enough information to locate it. We may ask you to verify ownership and aim to respond within 30 days.</p>
+
+    <h2>Restore a Purchase</h2>
+    <p>Linepaw is a one-time purchase, not a subscription. Open <strong>Account</strong> and tap <strong>Restore purchase</strong> while signed into the same Apple or Google account used to buy it. There is no subscription to cancel.</p>
+
+    <h2>Common Questions</h2>
+    <h3>Do my photos leave my device?</h3><p>Yes, for generation. The photo you choose is uploaded to Firebase Cloud Storage and sent to our AI providers to draw the line art. We do not use it to train our own models, and generated pages and job records are scheduled to expire after 30 days. You can delete uploads at any time from Account.</p>
+    <h3>Why did my generation fail?</h3><p>AI providers can be busy or rate-limited. Retry after a moment. If the whole book fails, the consumed preview is returned automatically. A single failed page can be retried without consuming another preview. If the issue continues, email us with the approximate time and your device type.</p>
+    <h3>How many pages can I make?</h3><p>Free users get one 2-page preview per day. A rewarded ad can add one more preview that day. After the one-time purchase, you can make unlimited books with 5, 10, or 20 pages.</p>
+    <h3>What does the purchase include?</h3><p>Unlimited books, 5/10/20-page books, no watermark, and A5 PDF plus PNG export. It is a one-time purchase with no subscription and no auto-renewal.</p>
+    <h3>Why does my pet look different?</h3><p>Linepaw draws an interpretation, not a photo copy. A clear, well-lit photo showing the pet's whole body and markings usually works best. You can retry failed pages or start a new book with another photo.</p>
+    <h3>How do I print the book?</h3><p>Export the A5 PDF and print at 100% / actual size, or choose "fit to page" on A4 paper. Printer and paper choice affect the final result; Linepaw does not guarantee a specific print resolution.</p>
+    <h3>How do I change ad consent?</h3><p>Where required, Linepaw shows a Privacy Options entry in Account settings. You can also use iOS Tracking settings or Android Ads settings.</p>
+    <h3>Can I use the pages commercially?</h3><p>No. Generated pages are for personal use and may not be resold or used commercially.</p>
+  </article></main>
+</body>
+</html>
